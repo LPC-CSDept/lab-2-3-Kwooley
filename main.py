@@ -6,6 +6,9 @@ def main():
     var2 = int(input('Enter your second number '))
     var3 = int(input('Enter your third number '))
 
+    # print(f'{var1} {var2} {var3}')
+    print(var1, var2, var3)
+
     total = var1 + var2 + var3
     print(f'The summation is {total:>20}')
 
